@@ -170,15 +170,6 @@ wm title .st "Student List"
 frame .st.fst -background "#dcfcb6"   ;# frame for student info
 frame .st.fbut                        ;# frame for buttons
 
-# Buttons for the window
-#button .st.fbut.b1 -text "Download" -command "download"
-#button .st.fbut.b2 -text "Read" -command  "read_current_prices"
-#button .st.fbut.b3 -text "Write" -command "write"
-#button .st.fbut.b4 -text "Plot" -command  "plot"
-#button .st.fbut.b5 -text "Quit" -command "destroy .st"
-#foreach  y {1 2 3 4 5} { 
-#	grid .st.fbut.b$y  -in .st.fbut -row 1 -column $y 
-#}
 
 
 # Content for the window
